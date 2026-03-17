@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌳 Çınar İçin Tek Yürek - Canlı Yayın Bağış Takip Sistemi
 
-## Getting Started
+SMA Tip-1 hastası Çınar Bebek için yürütülen yardım kampanyasına destek olmak amacıyla geliştirilmiş, gerçek zamanlı (real-time) bağış takip platformu.
 
-First, run the development server:
+## 🚀 Özellikler
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Çift Modlu Yapı:** Admin panelinden tek tuşla "Canlı Yayın" ve "Bekleme" modları arasında geçiş yapabilme.
+- **Dinamik Çınar Yaprağı Barı:** Yayında toplanan bağışları görselleştiren, akışkan animasyonlu ve dairesel 10 yapraklı ilerleme barı.
+- **Bekleme Ekranı:** Yayın dışı zamanlarda Instagram yönlendirmesi, Taplink QR kodu ve Valilik izni bilgilerini içeren bilgilendirme sayfası.
+- **Güvenli Admin Paneli:** Firebase tabanlı şifre doğrulama ve anlık oturum kapatma (Real-time eviction) özellikli yönetim arayüzü.
+- **Mobil Uyumluluk:** Hem izleyici ekranı hem de yönetim paneli tüm cihazlarla tam uyumlu (Responsive).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Teknolojiler
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend:** Next.js, Tailwind CSS, Framer Motion
+- **Backend/Database:** Firebase Firestore
+- **Icons:** Lucide React
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Kurulum
 
-## Learn More
+1. Depoyu klonlayın: `git clone https://github.com/bulentefetemur/cinar-icin-tek-yurek.git`
+2. Bağımlılıkları yükleyin: `npm install`
+3. Firebase konfigürasyonunuzu `.env` veya `lib/firebase.ts` içine ekleyin.
+4. Geliştirme sunucusunu başlatın: `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
+## 📜 Lisans
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Bu proje gönüllülük esasıyla Çınar Bebek'in valilik onaylı kampanyasına destek amacıyla hazırlanmıştır.
