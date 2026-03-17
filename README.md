@@ -1,8 +1,6 @@
 # 🌳 Çınar İçin Tek Yürek - Canlı Yayın Bağış Takip Sistemi
 
-![Live Demo](https://cinar-icin-tek-yurek.vercel.app/)
-
-**🔗 Canlı Site:** [https://cinar-icin-tek-yurek.vercel.app/](https://cinar-icin-tek-yurek.vercel.app/)
+**🔗 Canlı Site/Live Demo:** [https://cinar-icin-tek-yurek.vercel.app/](https://cinar-icin-tek-yurek.vercel.app/)
 
 SMA Tip-1 hastası Çınar Bebek için yürütülen yardım kampanyasına destek olmak amacıyla geliştirilmiş, gerçek zamanlı (real-time) bağış takip platformu.
 
